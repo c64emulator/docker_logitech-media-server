@@ -4,10 +4,10 @@ docker-files for legacy versions of Logitech Media Center
 docker hub: https://hub.docker.com/r/c64emu/logitechmediaservers/
 
 Build system for running legacy versions of the
-    - Logitech Slimserver /
-    - SqueezeCenter (SC) /    
-    - Squeezebox Server (SBS) /    
-    - Media Server (LMS)
+- Logitech Slimserver /
+- SqueezeCenter (SC) /    
+- Squeezebox Server (SBS) /    
+- Media Server (LMS)
     
   on newer linux os versions (omitting conflict of perl version).
 
