@@ -18,8 +18,10 @@ $ docker pull c64emu/logitechmediaservers:SC-7_2_1
 ```
 - add user AND group on hostsystem: "squeezecenter", ID: 888
 - create volumes on hostsystem (owner: squeezecenter:squeezecenter; permissions: 755):
-    - SQUEEZE_VOL (for cache, logfiles and prefs), example: `/home/docker/DockerImages/SC-7_2_1/srv_squeezeboxserver`
-    - SQUEEZE_MEDIA (for the mediafiles), example: `/home/public/lan/Fun/Audio`
+    - SQUEEZE_VOL (for cache, logfiles and prefs), 
+        example: `/home/docker/DockerImages/SC-7_2_1/srv_squeezeboxserver`
+    - SQUEEZE_MEDIA (for the mediafiles),
+        example: `/home/public/lan/Fun/Audio`
 
 Note: the "server.prefs" is customized to use a MySQL-DB.
 
