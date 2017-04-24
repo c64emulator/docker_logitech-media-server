@@ -38,7 +38,7 @@ $ docker run -d \
            -v /home/public/lan/Fun/Audio:/media/Audio:ro \
            c64emu/logitechmediaservers:SC-7_2_1
 ```
-Note: you can customize the dockerimage from github:
+Note: you can customize the dockerimage by using the code from github:
 - review and where required, customize SqueezeCenter by motifying
     - "Dockerfile",
     - "entrypoint.sh" and
