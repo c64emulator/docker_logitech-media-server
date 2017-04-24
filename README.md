@@ -12,8 +12,9 @@ Build system for running legacy versions of the Logitech
   on newer linux os versions (omitting conflicting perl versions).
 
 To use, e.g. for SqueezeCenter v7.2.1:
-
-`  $ docker pull c64emu/logitechmediaservers:SC-7_2_1
+```
+$ docker pull c64emu/logitechmediaservers:SC-7_2_1
+```
 
 - add user AND group on hostsystem: "squeezecenter", ID: 888
 - create volumes on hostsystem (owner: squeezecenter:squeezecenter; permissions: 755)
@@ -23,4 +24,6 @@ To use, e.g. for SqueezeCenter v7.2.1:
  - review and where required, customize SqueezeCenter by motifying "start-squeezebox.sh", "entrypoint.sh" and "Dockerfile".
   Note: the "server.prefs" is customized to use a MySQL-DB.
 
-`  $ docker run c64emu/logitechmediaservers:SC-7_2_1
+```
+$ docker run c64emu/logitechmediaservers:SC-7_2_1
+```
