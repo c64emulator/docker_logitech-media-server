@@ -1,6 +1,6 @@
 # base image is lenny (eol!) from debian archive
 FROM debian/eol:lenny
-MAINTAINER Herbert Nees <c64.emulator@web.de>
+MAINTAINER c64emu <c64.emulator@web.de>
 
 ENV SQUEEZE_VOL /srv/squeezebox
 ENV SQUEEZE_MEDIA /media/Audio
