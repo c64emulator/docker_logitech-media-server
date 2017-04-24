@@ -25,7 +25,7 @@ $ docker pull c64emu/logitechmediaservers:SC-7_2_1
     
         example: `/home/public/lan/Fun/Audio`
 
-Note: the "server.prefs" is customized to use a MySQL-DB.
+Note: the "server.prefs" is placed in `srv_squeezeboxserver/prefs/server.prefs`and is customized to use a MySQL-DB.
 
 ```
 $ docker run -d \
@@ -38,6 +38,8 @@ $ docker run -d \
            -v /home/public/lan/Fun/Audio:/media/Audio:ro \
            c64emu/logitechmediaservers:SC-7_2_1
 ```
+You can view the logs on hostsystem in directory `srv_squeezeboxserver/logs`.
+
 Note: you can customize the dockerimage by using the code from github:
 - review and where required, customize SqueezeCenter by motifying
     - "Dockerfile",
