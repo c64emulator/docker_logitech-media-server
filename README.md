@@ -39,7 +39,7 @@ $ docker run -d \
            c64emu/logitechmediaservers:SC-7_2_1
 ```
 Note: you can customize the dockerimage from github:
-    - review and where required, customize SqueezeCenter by motifying
-        - "Dockerfile",
-        - "entrypoint.sh" and
-        - "start-squeezebox.sh".
+- review and where required, customize SqueezeCenter by motifying
+    - "Dockerfile",
+    - "entrypoint.sh" and
+    - "start-squeezebox.sh".
