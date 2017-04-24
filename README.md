@@ -11,6 +11,7 @@ Build system for running legacy versions of the
   on newer linux os versions (omitting conflict of perl version).
 
 To use, e.g. for SqueezeCenter v7.2.1:
+
   $ docker pull c64emu/logitechmediaservers:SC-7_2_1
 
 - add user AND group on hostsystem: "squeezecenter", ID: 888
